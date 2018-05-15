@@ -1,0 +1,38 @@
+function countDs(string)  {
+	
+	let aantal = 0;
+	let letter = "D";
+	let arree = letter.split("");
+	
+		for (let i=0; i<string.length; i++)  {
+			if (arree.indexOf(string[i]) > -1)  {
+			aantal = aantal + 1;
+			}
+		}
+		return aantal;
+};
+	
+console.log(countDs("DDC"));    // --> 2
+
+
+
+
+function countChar(string)  {
+	
+	let aantal = 0;
+	let letter = "k";
+	let arree = letter.split("");
+	
+		for (let i=0; i<string.length; i++)  {
+			if (arree.indexOf(string[i]) > -1)  {
+			aantal = aantal + 1;
+			}
+		}
+		return aantal;
+};
+	
+console.log(countChar("kikker", "k"));   // --> 3
+
+
+
+
